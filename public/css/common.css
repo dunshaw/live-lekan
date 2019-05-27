@@ -1,0 +1,37 @@
+*{ margin: 0;padding: 0 ;}
+ul,li{list-style: none;}
+img{display: block;}
+html,body{height: 100%;font-family: PingFangSC-Regular, sans-serif;}
+.clearfix:after{ content: '';display: block;clear: both; }
+
+#main{ height: 100%; display: flex; flex-direction: column;}
+
+/*登录page中的样式*/
+.login-toast{
+  height: 100px;
+  width: 70%;
+  background: rgba(0,0,0,.5);
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  z-index: 99;
+  top: 30%;
+  left: 15%;
+  margin: 0 auto;
+  padding: 0 !important; 
+  border-radius: 12px;
+  font-size: 20px;
+  letter-spacing:2px;
+}
+.icon-sorry{
+  margin: 10px;
+  display: block;
+  font-size: 30px !important;
+}
+.icon-icon-test{
+  margin: 10px;
+  display: block;
+  font-size: 30px !important;
+  color: #f10d0d;
+}
+
